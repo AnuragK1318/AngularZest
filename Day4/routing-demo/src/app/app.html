@@ -1,0 +1,15 @@
+<div class="main-container">
+  <h1>Angular Routing Portal</h1>
+  
+  <nav class="navbar">
+    <button routerLink="/home" routerLinkActive="active-link">Home </button>
+    <button routerLink="/about" routerLinkActive="active-link">About </button>
+    <button routerLink="/user/101" routerLinkActive="active-link">User 101 </button>
+    <button routerLink="/user/202" routerLinkActive="active-link">User 202 </button>
+
+  </nav>
+
+  <div class="content-area">
+    <router-outlet></router-outlet>
+  </div>
+</div>

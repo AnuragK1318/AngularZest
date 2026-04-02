@@ -1,0 +1,21 @@
+<div class="profile-container">
+  @if (selectedUser) {
+    <div class="profile-card">
+      <div class="avatar">{{ selectedUser.name[0] }}</div>
+      <h3>{{ selectedUser.name }}</h3>
+      <p class="role">{{ selectedUser.role }}</p>
+      <div class="info-row">
+        <span>Location:</span>
+        <strong>{{ selectedUser.location }}</strong>
+      </div>
+      <div class="info-row">
+        <span>User ID:</span>
+        <strong>#{{ selectedUser.id }}</strong>
+      </div>
+    </div>
+  } @else {
+    <div class="error-card">
+      <p>⚠️ User not found in our records.</p>
+    </div>
+  }
+</div>

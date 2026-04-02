@@ -1,0 +1,55 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  background: #ffffff;
+  border: 1px solid #e1e8ed;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background: #3498db;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.role {
+  color: #3498db;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding: 8px 0;
+  border-top: 1px dashed #eee;
+}
+
+.error-card {
+  color: #e74c3c;
+  font-weight: bold;
+  padding: 20px;
+  background: #fdf2f2;
+  border-radius: 8px;
+}
