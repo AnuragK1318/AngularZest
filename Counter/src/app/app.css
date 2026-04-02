@@ -1,0 +1,27 @@
+.btn{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-black{
+    background-color: black;
+}
+.btn :hover{
+    border: 1px solid #fff;
+}
+.n{
+    border: 10px;
+    color: brown;
+    background-color: blanchedalmond;
+    /* width: 100px; */
+    height: 40px;
+}
