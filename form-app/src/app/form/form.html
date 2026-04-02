@@ -1,0 +1,16 @@
+<h2>User Form Task 1</h2>
+
+<form (ngSubmit)="onSubmit()">
+  <label>Name:</label>
+  <input type="text" [(ngModel)]="name" name="name">
+
+  <br><br>
+
+  <label>Email:</label>
+  <input type="email" [(ngModel)]="email" name="email">
+
+  <br><br>
+
+  <br><br>
+  <button type="submit">Submit</button>
+</form>

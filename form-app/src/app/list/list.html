@@ -1,0 +1,28 @@
+<h2>User List</h2>
+
+@if (users.length === 0) {
+  <p>No users added yet</p>
+} @else {
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      @for (user of users; track user) {
+
+        <tr>
+
+          <td>{{ user.name | capitalize }}</td>
+          <td>{{ user.email }}</td>
+        </tr>
+
+      }
+    </tbody>
+  </table>
+
+}

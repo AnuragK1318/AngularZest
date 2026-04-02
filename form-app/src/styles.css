@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+}
+
+/* Container for all pages */
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
