@@ -1,0 +1,92 @@
+/* Container */
+.container {
+  max-width: 420px;
+  margin: 60px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: #e11d48;
+  margin-bottom: 20px;
+}
+
+/* Input section */
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.input-container input:focus {
+  border-color: #e11d48;
+  box-shadow: 0 0 5px rgba(225, 29, 72, 0.3);
+}
+
+.input-container button {
+  padding: 10px 16px;
+  border: none;
+  background: linear-gradient(135deg, #e11d48, #fb7185);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.input-container button:hover {
+  transform: scale(1.05);
+}
+
+/* Task list */
+.task-list {
+  padding: 0;
+  list-style: none;
+}
+
+/* Task card */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fef9c3;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.task-item:hover {
+  transform: translateY(-2px);
+}
+
+/* Task text */
+.task-item span {
+  font-size: 16px;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+  transform: scale(1.05);
+}
