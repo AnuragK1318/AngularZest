@@ -1,0 +1,21 @@
+<h1>Template driven Form</h1>
+
+<input 
+[(ngModel)]="name"
+(ngModelChange)="name.set($event)"
+placeholder="Enter Name">
+
+<br><br>
+
+<input
+[(ngModel)]="email"
+(ngModelChange)="email.set($event)"
+placeholder="Enter Email"
+>
+<br><br>
+
+<button (click)="handleSubmit()" type="submit">Submit</button>
+<p>Name: {{name()}}</p>
+<p>Email: {{email()}}</p>
+<hr><hr>
+
